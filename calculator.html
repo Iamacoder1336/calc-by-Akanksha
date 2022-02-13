@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="images/logo.png" rel="icon" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/all.css" rel="stylesheet" />
+    <!-- <script src="js/jquery.js"></script> -->
+    <!-- <script src="js/bootstrap.js"></script> -->
+    <style>
+        button {
+            height: 50px;
+            width: 79px;
+            border-radius: 5px;
+            border: none;
+            font-weight: bold;
+            background-color: #33b2e2;
+            color: white;
+            margin: 5px;
+        }
+
+        button:hover {
+            background: yellow;
+            color: red;
+        }
+        .clear1{
+            display: flex;
+            justify-content: center;
+        }
+        .clear{
+            padding: 0 177px 0 177px;
+            background-color: rgb(204, 0, 255);
+        }
+    </style>
+
+<body>
+    <div class="container-fluid" style="min-height:650px;background:url('images/a.jpg');height:650px;">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 align="center" style="padding-top:50px;color:white;">Calculator</h1>
+                <div class="img-fluid "
+                    style="height:450px;width:400px;background:white;border-radius:40px;margin:0px auto;margin-top:70px;">
+                    <input type="text" name="screen" id="screen" placeholder="0"
+                        style="height:55px;width:80%;margin-left:40px;border-radius:5px;margin-top: 45px;" />
+                    <br />
+                    <br />
+                    <table style="margin:0px auto;width:80%;">
+                        <tr>
+                            <td><button>7</button></td>
+                            <td><button>8</button></td>
+                            <td><button>9</button></td>
+                            <td><button>/</button></td>
+                        </tr>
+                        <tr>
+                            <td><button>4</button></td>
+                            <td><button>5</button></td>
+                            <td><button>6</button></td>
+                            <td><button>*</button></td>
+                        </tr>
+                        <tr>
+                            <td><button>1</button></td>
+                            <td><button>2</button></td>
+                            <td><button>3</button></td>
+                            <td><button>-</button></td>
+                        </tr>
+                        <tr>
+                            <td><button>0</button></td>
+                            <td><button>.</button></td>
+                            <td><button>+</button></td>
+                            <td><button>=</button></td>
+                        </tr>
+                    </table>
+                    <div class="clear1">
+                        <button class="clear ">AC</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="js/index.js
+"></script>
+</body>
+</head>
+
+</html>
